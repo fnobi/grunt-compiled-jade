@@ -1,5 +1,5 @@
 {
-  "name": "grunt-jade-compile",
+  "name": "grunt-compiled-jade",
   "version": "0.0.0",
   "description": "compile jade template.",
   "keywords": [

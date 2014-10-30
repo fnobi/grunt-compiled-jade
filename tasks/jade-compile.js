@@ -1,7 +1,7 @@
 var jade = require('jade');
 
 module.exports = function (grunt) {
-    var TASK_NAME = 'jade_compile';
+    var TASK_NAME = 'compiled_jade';
     var TASK_DESCRIPTION = 'compile jade template.';
 
     grunt.registerMultiTask(TASK_NAME, TASK_DESCRIPTION, function () {

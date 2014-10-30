@@ -1,4 +1,4 @@
-grunt-jade-compile
+grunt-compiled-jade
 ====
 
 compile jade template.
@@ -7,7 +7,7 @@ compile jade template.
 
 ```
 % cd your/grunt/project/root
-% npm install grunt-jade-compile --save-dev
+% npm install grunt-compiled-jade --save-dev
 ```
 
 ### usage
@@ -16,14 +16,14 @@ compile jade template.
 module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        jade_compile: {
+        compiled_jade: {
             dev: {
             }
         }
     });
 
-    grunt.loadNpmTasks('grunt-jade-compile');
+    grunt.loadNpmTasks('grunt-compiled-jade');
 
-    grunt.registerTask('default', ['jade_compile:dev']);
+    grunt.registerTask('default', ['compiled_jade:dev']);
 };
 ```
