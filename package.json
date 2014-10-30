@@ -8,5 +8,9 @@
   "author": {
     "name": "Fujisawa Shin"
   },
-  "license": "BSD"
+  "license": "BSD",
+  "devDependencies": {
+    "jade": "~1.7.0",
+    "grunt-release": "~0.5.1"
+  }
 }
