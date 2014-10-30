@@ -18,6 +18,10 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         compiled_jade: {
             dev: {
+                template: '../views/partial/*.jade',
+                dest: 'js/jade.js',
+                runtime: 'node_modules/jade/runtime.js',
+                prefix: 'template'
             }
         }
     });
