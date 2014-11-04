@@ -26,6 +26,10 @@ module.exports = function (grunt) {
         }
 
         var buf = [];
+
+        // read jade runtime source
+        buf.push(grunt.file.read(runtime));
+
         template.forEach(function (pattern) {
             var files = grunt.file.expand({
                 cwd: root
